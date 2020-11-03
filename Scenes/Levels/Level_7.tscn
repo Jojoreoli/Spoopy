@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=2]
+[gd_scene load_steps=11 format=2]
 
 [ext_resource path="res://Scenes/Terreno/Chao.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Scenes/Terreno/Teto.tscn" type="PackedScene" id=2]
@@ -8,6 +8,7 @@
 [ext_resource path="res://Scenes/Terreno/ChaoQuebrDireita.tscn" type="PackedScene" id=6]
 [ext_resource path="res://Scenes/Terreno/ChaoQuebrEsquerda.tscn" type="PackedScene" id=7]
 [ext_resource path="res://Scenes/Levels/Level-6.gd" type="Script" id=8]
+[ext_resource path="res://Scenes/Lampada.tscn" type="PackedScene" id=9]
 
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 56, 128 )
@@ -162,4 +163,16 @@ script = ExtResource( 8 )
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Level-10"]
 position = Vector2( 1672, -128 )
 shape = SubResource( 1 )
+
+[node name="Lampada" parent="." instance=ExtResource( 9 )]
+position = Vector2( 0, -256 )
+
+[node name="Lampada2" parent="." instance=ExtResource( 9 )]
+position = Vector2( 0, -1024 )
+
+[node name="Lampada3" parent="." instance=ExtResource( 9 )]
+position = Vector2( 720, -652 )
+
+[node name="Lampada4" parent="." instance=ExtResource( 9 )]
+position = Vector2( -864, -640 )
 [connection signal="body_entered" from="Level-10" to="Level-10" method="_on_Level6_body_entered"]

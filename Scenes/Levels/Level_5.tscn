@@ -396,5 +396,5 @@ position = Vector2( 2560, -976 )
 shape = SubResource( 1 )
 
 [node name="TileMapPadrao" parent="." instance=ExtResource( 7 )]
-tile_data = PoolIntArray( -1376309, 4, 0, -1179687, 4, 0, -983094, 4, 0, -917497, 4, 0, -786471, 4, 0, -589878, 4, 0, -327719, 4, 0, -393209, 4, 0, -131126, 4, 0, 65497, 4, 0 )
+tile_data = PoolIntArray( -1376310, 4, 0, -1179687, 4, 0, -983094, 4, 0, -917497, 4, 0, -786471, 4, 0, -589878, 4, 0, -327719, 4, 0, -393209, 4, 0, -131126, 4, 0, 65497, 4, 0 )
 [connection signal="body_entered" from="Portal---9" to="Portal---9" method="_on_Portal9_body_entered"]

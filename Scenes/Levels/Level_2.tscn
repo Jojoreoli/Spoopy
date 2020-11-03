@@ -360,6 +360,6 @@ position = Vector2( 3544, 2728 )
 position = Vector2( 2512, 2232 )
 
 [node name="Lampada3" parent="." instance=ExtResource( 13 )]
-position = Vector2( 1216, 2240 )
+position = Vector2( 1216, 2219.82 )
 [connection signal="body_entered" from="Portal_7" to="Portal_7" method="_on_Portal_7_body_entered"]
 [connection signal="body_entered" from="Portal_3" to="Portal_3" method="_on_Portal_3_body_entered"]

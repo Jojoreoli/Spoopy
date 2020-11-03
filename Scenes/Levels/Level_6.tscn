@@ -20,8 +20,8 @@ extents = Vector2( 48, 128 )
 [node name="Level_6" type="Node2D"]
 
 [node name="Porta" parent="." instance=ExtResource( 11 )]
-position = Vector2( 2168, -3272 )
-scale = Vector2( 0.96001, 1.12001 )
+position = Vector2( 2179, -3274 )
+scale = Vector2( 1.04001, 1.21334 )
 
 [node name="Terreno" type="Node2D" parent="."]
 
@@ -401,7 +401,25 @@ position = Vector2( 40, 32 )
 shape = SubResource( 1 )
 
 [node name="Lampada" parent="." instance=ExtResource( 10 )]
-position = Vector2( 3296, -3560 )
+position = Vector2( 3304, -3216 )
+
+[node name="Lampada2" parent="." instance=ExtResource( 10 )]
+position = Vector2( 576, -400 )
+
+[node name="Lampada3" parent="." instance=ExtResource( 10 )]
+position = Vector2( 2019, -400 )
+
+[node name="Lampada4" parent="." instance=ExtResource( 10 )]
+position = Vector2( 3456, -400 )
+
+[node name="Lampada5" parent="." instance=ExtResource( 10 )]
+position = Vector2( -1296, -2944 )
+
+[node name="Lampada6" parent="." instance=ExtResource( 10 )]
+position = Vector2( -56, -2944 )
+
+[node name="Lampada7" parent="." instance=ExtResource( 10 )]
+position = Vector2( 1152, -2939 )
 
 [node name="Pacientes" type="Node2D" parent="."]
 
@@ -414,6 +432,6 @@ position = Vector2( 0, 240 )
 [node name="ACAB" type="Node2D" parent="."]
 
 [node name="TileMapPadrao" parent="." instance=ExtResource( 12 )]
-tile_data = PoolIntArray( -1900622, 4, 0, -1638465, 4, 0, -1376308, 4, 0, -1114169, 4, 0, -852034, 4, 0, -655437, 4, 0, -524353, 4, 0, -327735, 4, 0, -131117, 4, 0, -55, 4, 0, -54, 4, 0 )
+tile_data = PoolIntArray( -2949163, 4, 0, -2621483, 4, 0, -2424863, 4, 0, -2228267, 4, 0, -1900622, 4, 0, -1900596, 4, 0, -1638465, 4, 0, -1376308, 4, 0, -1114151, 4, 0, -852020, 4, 0, -589889, 4, 0, -327732, 4, 0, -65575, 4, 0, 196582, 4, 0 )
 [connection signal="body_entered" from="Portal-3" to="Portal-3" method="_on_Portal3_body_entered"]
 [connection signal="body_entered" from="Portal-10" to="Portal-10" method="_on_Portal10_body_entered"]

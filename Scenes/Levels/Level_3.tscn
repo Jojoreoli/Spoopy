@@ -309,25 +309,31 @@ position = Vector2( 1904, -6560 )
 shape = SubResource( 2 )
 
 [node name="TileMapPadrao2" parent="." instance=ExtResource( 8 )]
-tile_data = PoolIntArray( -6946789, 4, 0, -6291445, 4, 0, -6291434, 4, 0, -6160344, 4, 0, -6160343, 4, 0, -5832673, 4, 0, -5636080, 4, 0, -5439461, 4, 0, -5242839, 4, 0, -5111779, 4, 0, -4915185, 4, 0, -4587491, 4, 0, -4456409, 4, 0, -4063191, 4, 0, -3997683, 4, 0, -3866606, 4, 0, -3801057, 4, 0, -3473383, 4, 0, -3145698, 4, 0, -2883561, 4, 0, -2555878, 4, 0, -2293717, 4, 0, -2162665, 4, 0, -1834992, 4, 0, -1834970, 4, 0, -1572851, 4, 0, -1441755, 4, 0, -1245163, 4, 0, -1048539, 4, 0, -851958, 4, 0, -655334, 4, 0, -458715, 4, 0, -262123, 4, 0, -65527, 4, 0, 131081, 4, 0, 327689, 4, 0 )
+tile_data = PoolIntArray( -6815718, 4, 0, -6750193, 4, 0, -6750171, 4, 0, -6488038, 4, 0, -6225894, 4, 0, -5767160, 4, 0, -5767125, 4, 0, -5439473, 4, 0, -5439451, 4, 0, -4784116, 4, 0, -4784088, 4, 0, -4521966, 4, 0, -4521950, 4, 0, -4259814, 4, 0, -3932146, 4, 0, -3932122, 4, 0, -3669990, 4, 0, -3014636, 4, 0, -3014624, 4, 0, -2686962, 4, 0, -2686938, 4, 0, -2359270, 4, 0, -1834998, 4, 0, -1834967, 4, 0, -1507310, 4, 0, -1507294, 4, 0, -1179638, 4, 0, -1179622, 4, 0, -1179607, 4, 0, -655334, 4, 0, -327663, 4, 0, -327645, 4, 0, 26, 4, 0, 196620, 4, 0, 196648, 4, 0 )
 
 [node name="Lampada" parent="." instance=ExtResource( 12 )]
-position = Vector2( 936, -728 )
+position = Vector2( 2398, -832 )
+
+[node name="Lampada7" parent="." instance=ExtResource( 12 )]
+position = Vector2( 1214, -5424 )
+
+[node name="Lampada8" parent="." instance=ExtResource( 12 )]
+position = Vector2( 2518, -5424 )
 
 [node name="Lampada2" parent="." instance=ExtResource( 12 )]
-position = Vector2( 2584, -1608 )
+position = Vector2( 1344.5, -832 )
 
 [node name="Lampada3" parent="." instance=ExtResource( 12 )]
-position = Vector2( 1696, -2568 )
+position = Vector2( 1880, -1856 )
 
 [node name="Lampada4" parent="." instance=ExtResource( 12 )]
-position = Vector2( 2056, -4088 )
+position = Vector2( 1160, -3008 )
 
 [node name="Lampada5" parent="." instance=ExtResource( 12 )]
-position = Vector2( 1936, -6216 )
+position = Vector2( 1886.53, -4520 )
 
 [node name="Lampada6" parent="." instance=ExtResource( 12 )]
-position = Vector2( 984, -5632 )
+position = Vector2( 2632, -3008 )
 [connection signal="body_entered" from="Portal-2" to="Portal-2" method="_on_Portal2_body_entered"]
 [connection signal="body_entered" from="Portal-6" to="Portal-6" method="_on_Portal6_body_entered"]
 [connection signal="body_entered" from="Portal_4" to="Portal_4" method="_on_Portal_4_body_entered"]

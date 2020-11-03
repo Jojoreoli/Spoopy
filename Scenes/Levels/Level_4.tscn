@@ -499,16 +499,16 @@ position = Vector2( 1304, 8 )
 position = Vector2( -2960, -192 )
 
 [node name="Lampada4" parent="." instance=ExtResource( 14 )]
-position = Vector2( -3104, -1288 )
+position = Vector2( -2960, -1782.59 )
 
 [node name="Lampada5" parent="." instance=ExtResource( 14 )]
-position = Vector2( -2248, 16 )
+position = Vector2( -2126.91, 4 )
 
 [node name="Lampada6" parent="." instance=ExtResource( 14 )]
 position = Vector2( -1216, 8 )
 
 [node name="TileMapPadrao2" parent="." instance=ExtResource( 13 )]
-tile_data = PoolIntArray( -1179704, 4, 0, -983096, 4, 0, -720952, 4, 0, -458808, 4, 0, -327717, 4, 0, 327645, 4, 0, 327664, 4, 0 )
+tile_data = PoolIntArray( -1245240, 4, 0, -983096, 4, 0, -720952, 4, 0, -458808, 4, 0, 327645, 4, 0, 327664, 4, 0 )
 
 [node name="Paciente" parent="." instance=ExtResource( 11 )]
 position = Vector2( -1216, 472 )
